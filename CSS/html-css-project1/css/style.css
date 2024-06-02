@@ -1,0 +1,89 @@
+.banner {
+    background-image: url(./../images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 50px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #baf0bc;
+}
+nav a {
+    padding: 20px 10px;
+    font-size: 20px;
+    border: 1px solid green;
+    text-align: center;
+}
+.row{
+    background-color: burlywood;
+    float: left;
+    display: flex;
+    border: 2px solid;
+}
+.sidebar{
+    width: 300px;
+    border: 3px solid;
+    margin: 10px;
+    text-align: center;
+}
+body{
+    background-color: wheat;
+}
+.mainsection{
+    display: flex;
+}
+.d-flex{
+    display: flex;
+}
+.w-50{
+    width: 50%;
+}
+button{
+    padding: 10px 40px;
+    background-color: azure;
+    border: 2px solid #e7c9c9;
+    display: block;
+}
+.title-style{
+    border-bottom: 2px solid black;
+    padding-bottom: 14px;
+}
+.p-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button::after{
+    content: '&';
+}
+button::before{
+    content: '#';
+}
+.title-style:before{
+    content:"";
+    background-color: #b139a5;
+    height: 2px;
+    width: 100%;
+    display: block;
+}
+img{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+img::before{
+    content: "^";
+    background-color: #b139a5;
+    display: block;
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+}
+/* atrribute selectors */
+[href]{
+    background-color: cadetblue;
+}
+[href="https://www.google.com"]{
+    background-color: rgb(35, 19, 105);
+}

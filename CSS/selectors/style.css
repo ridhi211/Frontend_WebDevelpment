@@ -1,0 +1,74 @@
+/* SIMPLE SELECTOR (element name, id, class)*/  
+#id1{
+    color: blue;
+}
+.red{
+    color: red;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* -------------------------------------------------- */
+
+/* COMBINATOR SELECTOR(descendant, child, adjacent sibling, general sibling) */
+/* descendant selector */
+.domain-sale a {
+    background-color: brown;
+}
+/* child selector */
+.container > div{
+    border: 2px solid violet;
+}
+/* adjacent sibling (all sibling)*/
+.first ~ li {
+    border: 2px solid yellow;
+}
+ul ~ div{
+    border: 2px solid green;
+   
+}
+/* general selector (only first sibling) */
+.general + li {
+    border: 2px solid rgb(168, 32, 177);
+}
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* PSEUDO-CLASS SELECTOR */
+.button1:hover {
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
+.button1:focus {
+    background-color: rgb(27, 150, 15);
+    color: rgb(197, 67, 7);
+    cursor: pointer;
+}
+.pseudoChild li:first-child{
+    background-color: rgb(7, 57, 88);  
+}
+.pseudoChild li:last-child{
+    background-color: rgb(101, 219, 88);
+}
+.pseudoChild li:nth-child(5) {
+    background-color: rgb(101, 219, 88);
+}
+:root{
+    border: 5px solid grey;
+}
+.disable:disabled{
+    background-color: rgb(205, 197, 203);
+}
+input:checked{
+    width: 50px;
+    height: 60px;
+}
+
+/* background image */
+.row{
+    background-image: url('./imgs/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
