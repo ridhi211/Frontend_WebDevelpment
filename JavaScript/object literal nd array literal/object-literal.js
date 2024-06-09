@@ -35,14 +35,15 @@ const bdayTreat3 = [
         place:"tharamani"
     },
     {
-        name: "karthi",
-        dob: "5-5-1992",
-        place:"meenambakkam"
-    },
-    {
         name: "jay",
         dob: "31-07-1996",
         place:"velachery"
+        
+    },
+    {
+        name: "karthi",
+        dob: "5-5-1992",
+        place:"meenambakkam"
     }
 ]
 console.log(bdayTreat3[0].name)
