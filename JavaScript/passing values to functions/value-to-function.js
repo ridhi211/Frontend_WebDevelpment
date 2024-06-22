@@ -13,3 +13,14 @@ color(5,7,6,9,2)
 
 
 
+
+
+
+function karthi(a) {
+    console.log(a)
+}
+
+karthi(5)
+karthi("karthi")
+karthi("Hi")
+karthi(true)
