@@ -47,5 +47,5 @@ const final = characters.filter( function (ele){ return ele.gender == "female" }
 
 console.log(final) 
 
-final.map(function (ele){ console.log(ele.name)  })
+final.map(function (ele){ console.log(ele.name)  }) 
 
