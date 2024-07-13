@@ -4,3 +4,5 @@ function a(arr){
 
 const retval = a([1,2,2,4])
 console.log(retval)
+
+//

@@ -7,8 +7,7 @@ const anagram = (str1, str2) => {
     const lowerStr2 = str2.toLowerCase()
 
     if(lowerStr1 === lowerStr2){
-        console.log("lowerStr1 === lowerStr2 is false" ) 
-
+        console.log("lowerStr1 === lowerStr2 is false" )                                       
         return false
     }
 
@@ -17,7 +16,7 @@ const anagram = (str1, str2) => {
                                                 //"eilnst"
     const sortStr2 = lowerStr2.split("").sort().join("")
                             //["s","i","l","e","n","t"] 
-                                        //["e","i","l","n","s","t"]
+                                          //["e","i","l","n","s","t"]
                                                 //"eilnst"
     return sortStr1 === sortStr2
             // "eilnst"==="eilnst"
